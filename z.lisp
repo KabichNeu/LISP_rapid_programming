@@ -1,0 +1,7 @@
+(with-open-file (stream "myfile.txt" :direction :output)
+   (format stream "Welcome to Tutorials Point!")
+   (terpri stream)
+   (format stream "This is a tutorials database")
+   (terpri stream)
+   (format stream "Submit your Tutorials, White Papers and Articles into our Tutorials   Directory.")
+)
